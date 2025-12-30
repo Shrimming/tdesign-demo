@@ -18,7 +18,7 @@ export default {
   projectList: {
     title: '项目列表',
     dialog: {
-      title: '基本信息',
+      title: '订单基本信息',
     },
     table: {
       name: '名称',

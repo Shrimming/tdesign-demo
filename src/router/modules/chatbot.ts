@@ -2,32 +2,24 @@ import Layout from '@/layouts/index.vue';
 
 export default [
   {
-    path: '/user',
-    name: 'user',
+    path: '/chatbot',
+    name: 'chatbot',
     component: Layout,
-    redirect: '/user/index',
-    meta: { title: { zh_CN: '个人中心', en_US: 'User Center' }, icon: 'user-circle' },
-    children: [
+    redirect: '/chatbot',
+    meta: {
+      title: { zh_CN: '智能客服助手',
+               en_US: 'Intelligent Client Assistant'
+               },
+      icon: 'user-circle' },
+      children: [
       {
         path: 'index',
-        name: 'UserIndex',
+        name: 'ChatbotIndex',
         component: () => import('@/pages/chatbot/index.vue'),
-        meta: { title: { zh_CN: '个人中心', en_US: 'User Center' } },
-      },
-    ],
-  },
-  {
-    path: '/loginRedirect',
-    name: 'loginRedirect',
-    redirect: '/login',
-    meta: { title: { zh_CN: '登录页', en_US: 'Login' }, icon: shallowRef(LogoutIcon) },
-    component: () => import('@/layouts/blank.vue'),
-    children: [
-      {
-        path: 'index',
-        redirect: '/login',
-        component: () => import('@/layouts/blank.vue'),
-        meta: { title: { zh_CN: '登录页', en_US: 'Login' } },
+        meta: {
+          title: { zh_CN: '智能客服助手',
+                   en_US: 'Intelligent Client Assistant' }
+              },
       },
     ],
   },

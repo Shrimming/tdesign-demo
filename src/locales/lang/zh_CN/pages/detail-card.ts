@@ -1,6 +1,6 @@
 export default {
   baseInfo: {
-    title: '基本信息',
+    title: '订单基本信息',
   },
   invoice: {
     title: '发票进度',
@@ -21,19 +21,19 @@ export default {
     },
   },
   product: {
-    title: '产品目录',
-    add: '新增产品',
+    title: '商品目录',
+    add: '新增商品',
     month: '月份',
     quarter: '季度',
   },
   detail: {
-    title: '产品采购明细',
+    title: '订单明细',
     form: {
       applyNo: '申请号',
-      product: '产品名称',
-      productNo: '产品编号',
+      product: '商品名称',
+      productNo: '商品编号',
       operation: '操作',
-      department: '申请部门',
+      department: '商品类别',
       num: '采购数量',
       createTime: '创建时间',
       manage: '管理',

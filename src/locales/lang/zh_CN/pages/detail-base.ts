@@ -1,6 +1,6 @@
 export default {
   baseInfo: {
-    title: '基本信息',
+    title: '订单基本信息',
   },
   changelog: {
     title: '变更记录',
