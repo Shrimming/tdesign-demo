@@ -24,7 +24,7 @@
     "@rollup/rollup-win32-x64-msvc": "^4.54.0",
     "@tdesign-vue-next/chat": "^0.5.0-alpha.10",
     "@vueuse/core": "^12.3.0",
-    "axios": "^1.8.4",
+    "axios": "^1.13.2",
     "dayjs": "^1.11.13",
     "echarts": "5.4.3",
     "lodash": "^4.17.21",
